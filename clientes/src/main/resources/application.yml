@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: cliente
+
+jpa:
+     database-platform: org.hibernate.dialect.Oracle10gDialect
+     open-in-view: true
+     hibernate:
+       ddl-auto: none
+#      ddl-auto: create-drop
+#      ddl-auto: validate
+
+datasource:
+     url: jdbc:oracle:thin:@10.147.20.153:1521:OracleBD
+     username: FJBL_ADMIN
+     password: p4ssw0rd
+     driver-class-name: oracle.jdbc.OracleDriver
